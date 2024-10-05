@@ -1,0 +1,73 @@
+
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f9f9f9; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50; 
+    color: white; 
+    text-align: center;
+    padding: 20px;
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white; 
+    border: 1px solid #ddd; 
+}
+
+
+ul {
+    list-style-type: none; /* Remove bullets from the list */
+    padding: 0;
+    display: flex; /* Arrange items in a row */
+    justify-content: space-around; /* Space items evenly */
+}
+
+ul li {
+    text-align: center;
+}
+
+ul li img {
+    width: 80px; 
+    height: 80px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove gaps between table cells */
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #cccccc; 
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #4CAF50; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none; /* Remove underline from links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Add underline when hovering */
+}
+
+
+
+
